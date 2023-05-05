@@ -1,0 +1,91 @@
+:root {
+  --main-color: #2695ff;
+  --second-color: #1877f2;
+  --third-color: #05c7f2;
+}
+
+/* Start Navbar */
+nav {
+  background-color: var(--main-color) !important;
+}
+nav a {
+  color: white !important;
+  font-size: 1.2rem !important;
+}
+nav a:hover {
+  opacity: 0.8;
+}
+nav a.active {
+  opacity: 0.8;
+}
+nav .navbar-brand {
+  font-size: 25px !important;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* End Navbar */
+/* Start OffCanvas  */
+.offcanvas-body a {
+  font-size: 18px;
+  color: inherit;
+}
+.offcanvas-body a:hover {
+  transform: translateX(8px);
+  text-decoration: underline !important;
+  color: var(--second-color);
+}
+.offcanvas-body a i {
+  margin-right: 7px;
+}
+.offcanvas-body a:last-child {
+  margin-left: 25.4px;
+}
+
+/* End OffCanvas  */
+/* Start Footer */
+footer {
+  background-color: var(--main-color);
+}
+footer p {
+  border-top: 1px solid rgba(0, 0, 0, 0.2549019608);
+  text-align: center;
+  padding: 4px 0;
+  margin: 0;
+  font-weight: 500;
+}
+footer p span {
+  color: white;
+  font-weight: bold;
+}
+
+/* End Footer */
+.back-top-btn {
+  color: #1877f2;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2549019608);
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  cursor: pointer;
+  transform: translateY(7px);
+  opacity: 0;
+}
+.back-top-btn i {
+  transition: 0s !important;
+}
+
+.back-top-btn:hover {
+  background-color: #1877f2;
+  color: white;
+}
+
+.show-back-top-btn {
+  transform: translateY(0);
+  opacity: 1;
+}/*# sourceMappingURL=rootLayout.css.map */

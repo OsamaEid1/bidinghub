@@ -1,0 +1,19 @@
+.log-in-form{
+    background: rgba(165, 207, 243, 0.5);
+    width: 30%;
+    padding: 1%;
+    text-align: center;
+    margin: 4%;
+    box-shadow: 20px 20px 10px rgb(210, 210, 255) ;
+    border-radius: 10%;
+}
+.form-header{
+    font-family: Serif;
+    font-weight: bolder;
+    font-size: 5pc;
+    color: #0019fa;
+}
+.div-log-in{
+    display: flex;
+    justify-content: center;
+}
